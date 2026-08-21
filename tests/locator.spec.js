@@ -13,6 +13,7 @@ test('demo',async ({page})=>
     await page. locator("#hobbies-checkbox-1").check();
     await page.getByPlaceholder("Current Address").fill("no 98 amman koil st saidapet rd vadapalani ch-26");
     console.log("poll scm done");
-    
+    console.log("elango branch done");
+
 
 })
